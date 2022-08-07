@@ -44,6 +44,7 @@ class Items(TypedTable):
     description: str
     body: str
     seller_id: int
+    image: str
     created_at: datetime
     updated_at: datetime
 
